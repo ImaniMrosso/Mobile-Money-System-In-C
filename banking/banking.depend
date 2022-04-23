@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1647959191 source:/home/cybergates/GitHub/In/Financial/Banking/banking/hasher.c
+	<stdio.h>
+	<stdlib.h>
+	<sqlite3.h>
+	<string.h>
+	"hasher.h"
+
+1647957580 /home/cybergates/GitHub/In/Financial/Banking/banking/hasher.h
+
+1648298003 source:/home/cybergates/GitHub/In/Financial/Banking/banking/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"init.h"
+	"authentication.h"
+	"menu.h"
+
+1648303414 /home/cybergates/GitHub/In/Financial/Banking/banking/init.h
+
+1648134628 /home/cybergates/GitHub/In/Financial/Banking/banking/authentication.h
+
+1648303300 source:/home/cybergates/GitHub/In/Financial/Banking/banking/init.c
+	<stdio.h>
+	<stdlib.h>
+	<sqlite3.h>
+	<string.h>
+	"init.h"
+
+1648298049 source:/home/cybergates/GitHub/In/Financial/Banking/banking/authentication.c
+	<stdio.h>
+	<stdlib.h>
+	<sqlite3.h>
+	<ctype.h>
+	<string.h>
+	<stdbool.h>
+	"authentication.h"
+	"hasher.h"
+	"init.h"
+	"menu.h"
+
+1648298139 source:/home/cybergates/GitHub/In/Financial/Banking/banking/menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"authentication.h"
+	"financialservice.h"
+	"borrowing.h"
+
+1648133281 /home/cybergates/GitHub/In/Financial/Banking/banking/menu.h
+
+1648289833 /home/cybergates/GitHub/In/Financial/Banking/banking/financialservice.h
+
+1648296546 source:/home/cybergates/GitHub/In/Financial/Banking/banking/financialservice.c
+	<stdio.h>
+	<stdlib.h>
+	"financialservice.h"
+	"menu.h"
+	"authentication.h"
+
+1648298191 /home/cybergates/GitHub/In/Financial/Banking/banking/borrowing.h
+
+1648303465 source:/home/cybergates/GitHub/In/Financial/Banking/banking/borrowing.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"financialservice.h"
+	"menu.h"
+	"authentication.h"
+	"borrowing.h"
+	"init.h"
+
